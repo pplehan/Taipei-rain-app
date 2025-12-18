@@ -14,7 +14,7 @@ export default defineConfig({
       '/rain-api': {
         target: 'http://localhost:8080',
         changeOrigin: true,
-        // 這裡不需要 rewrite，因為後端 server.cjs 本身就是寫 app.get('/rain-api')
+
       }
     }
   }
