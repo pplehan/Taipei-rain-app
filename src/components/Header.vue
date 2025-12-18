@@ -14,7 +14,7 @@
       @input="$emit('update:search', $event.target.value)"
     />
 
-    <!-- 字級選單 -->
+    <!-- 字級數選單 -->
     <select 
       class="border border-gray-400 p-2 rounded flex-shrink-0 w-full sm:w-auto"
       :value="fontSize"
